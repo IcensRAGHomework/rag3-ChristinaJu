@@ -48,7 +48,7 @@ def generate_hw01():
         metadata={"hnsw:space": "cosine"},
         embedding_function=openai_ef
     )
-    create_database(collection)
+    #create_database(collection)
     return collection
     
 def generate_hw02(question, city, store_type, start_date, end_date):
